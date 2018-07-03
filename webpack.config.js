@@ -30,6 +30,7 @@ module.exports = {
       Clock: 'app/components/Clock.jsx',
       CountdownForm: 'app/components/CountdownForm.jsx',
       Controls: 'app/components/Controls.jsx'
+
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -43,7 +44,9 @@ module.exports = {
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
       }
+
     ]
   },
+
   devtool:'eval-source-map'
 };
